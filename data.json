@@ -1,0 +1,8 @@
+json_data = {
+  "bg": "img/bg.png",
+  "screen1": "img/screen-1.png",
+  "screen2": "img/screen-2.png",
+  "screen3": "img/screen-3.png",
+  "btnSubmit": "img/submit-btn.png",
+  "tcsApply": "img/tcs-apply.png"
+}

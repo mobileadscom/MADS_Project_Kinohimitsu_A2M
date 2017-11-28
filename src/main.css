@@ -1,0 +1,63 @@
+#rma-widget, #ad-container {
+  width: 320px;
+  height: 480px;
+}
+
+.screens {
+  width: 320px;
+  height: 480px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: 320px 480px !important;
+}
+
+#screen2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#qrcode {
+  position: absolute;
+  bottom: 13px;
+  left: 25px;
+  width: 110px;
+}
+
+#couponCode {
+  position: absolute;
+  top: 258px;
+  left: 26px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  width: 132px;
+  overflow: overlay;
+  margin: 0.4rem;
+}
+
+#tcsApply {
+  position: absolute;
+  right: 0;
+  bottom: 8px;
+  width: 185px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+form .form-input {
+  padding: 0.4rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+}
+
+form [type="image"] {
+  align-self: flex-end;
+  margin-right: -0.5rem;
+}

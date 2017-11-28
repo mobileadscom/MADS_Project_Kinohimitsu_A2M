@@ -1,0 +1,22 @@
+{
+  "sections": [{
+    "name": "Assets",
+    "inputs": [{
+        "title": "Screen 1 Background",
+        "value": "img/screen-1.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "screen1"
+      }]
+  }],
+  "property": {
+    "bg": "img/bg.png",
+    "screen1": "img/screen-1.png",
+    "screen2": "img/screen-2.png",
+    "screen3": "img/screen-3.png",
+    "btnSubmit": "img/submit-btn.png",
+    "tcsApply": "img/tcs-apply.png"
+  },
+
+  "trackers": ["signup", "submit", "tc_tap"]
+}
